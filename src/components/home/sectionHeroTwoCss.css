@@ -45,4 +45,5 @@
     padding: 17px 38px;
     column-gap: 20px;
     border-radius: 9px;
+    align-items: anchor-center;
 }

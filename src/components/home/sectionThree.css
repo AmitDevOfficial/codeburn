@@ -62,9 +62,12 @@
     position: relative;
 }
 
-
-.myclgTwoChild{
+.headStar{
     display: flex;
+    justify-content: space-between;
+}
+.myclgTwoChild{
+    /* display: flex; */
     background: var(--textcolorOne);
     width: 280px;
     border: 1px solid var(--primary);   

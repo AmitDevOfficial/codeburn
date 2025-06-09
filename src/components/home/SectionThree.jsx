@@ -33,18 +33,20 @@ export default function SectionThree() {
                             <img src={myclgImage} alt="myColleageImage" />
                         </div>
                         <div className='myclgTwoChild'>
-                            <div>
-                                <p>15500+</p>
-                                <p>Students Placed</p>
-                                <StarIcon style={{color:"#FFC600"}} />
-                                <StarIcon style={{color:"#FFC600"}} />
-                                <StarIcon style={{color:"#FFC600"}} />
-                                <StarIcon style={{color:"#FFC600"}} />
-                                <StarIcon style={{color:"#FFC600"}} />  
+                            <div className="headStar">
+                                <div>
+                                    <p>15500+</p>
+                                </div>
+                                <div>
+                                    <button className='topBtn'>Admission Open</button>
+                                </div>
                             </div>
-                            <div>
-                                <button className='topBtn'>Admission Open</button>
-                            </div>
+                             <p>Students Placed</p>
+                                <StarIcon style={{ color: "#FFC600" }} />
+                                <StarIcon style={{ color: "#FFC600" }} />
+                                <StarIcon style={{ color: "#FFC600" }} />
+                                <StarIcon style={{ color: "#FFC600" }} />
+                                <StarIcon style={{ color: "#FFC600" }} />
                         </div>
                     </div>
                 </div>

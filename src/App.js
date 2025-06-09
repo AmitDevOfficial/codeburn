@@ -1,4 +1,5 @@
 import React from 'react'
+import "./App.css";
 import SectionOne from './components/header/SectionOne';
 import SectionHero from './components/home/SectionHero';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,6 +13,8 @@ import Infra from "./components/pages/Infrastructure"
 import Placement from "./components/pages/Placements"
 import Resource from "./components/pages/Resources"
 import FooterTop from './components/header/FooterTop';
+import MobileHeader from './components/header/MobileHeader';
+
 
 export default function App() {
 
@@ -20,6 +23,7 @@ export default function App() {
 
       <BrowserRouter>
         <SectionOne />
+        <MobileHeader />
         <Routes>
           <Route exact path="/" element={<SectionHero />}/>
           <Route exact path="/about" element={<AboutArya />}/>
