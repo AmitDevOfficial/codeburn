@@ -1,0 +1,39 @@
+.topHeaderTwoStyle{
+    display: flex;
+    height: 85px;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconHeader img{
+    width: 188px;
+    height: 48px;
+    left: 102px;
+    padding: 18px 30px;
+}
+
+.menuHeader{
+    padding-right: 30px;
+    color: #182F439C;
+}
+
+
+
+.menuHeader ul{
+    display: flex;
+    column-gap: 30px;
+}
+
+.menuHeader ul li{
+    list-style: none;
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+.menuHeader ul li a{
+    color: #182F439C;
+    text-decoration: none;
+}
+.menuHeader ul li a:hover{
+    color: var(--primary);
+    transition: 0.2s ease-in-out;
+}

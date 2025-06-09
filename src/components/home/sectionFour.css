@@ -1,0 +1,84 @@
+.sectionFourMain {
+    background: var(--bglinear);
+    font-family: var(--font-primary);
+    height: 528px;
+    margin-top: 80px;
+}
+
+.sectionFourMainChild {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fourOne {
+    background: var(--textcolorOne);
+    width: 591px;
+    height: 481px;
+    align-content: center;
+    border-radius: 0px 0px 23px 23px;
+    padding: 20px 69px;
+}
+
+
+.fourOne h2 {
+    line-height: 35px;
+    padding: 15px 0px 26px 0px;
+}
+
+.fourTwo {
+    display: flex;
+    align-self: center;
+}
+
+.cardOne p {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 20px;
+    width: 200px;
+}
+.cardOneParaTwo{
+    width: 117px !important;
+}
+
+.cardOne {
+    border: 2px solid var(--textcolorOne);
+    width: 265px;
+    height: 165px;
+    border-radius: 16px;
+    padding: 20px 26px;
+    color: white;
+    margin: 20px 12px;
+}
+
+.cardOne:hover {
+    border: 2px solid var(--textcolorOne);
+    width: 265px;
+    height: 165px;
+    border-radius: 16px;
+    padding: 20px 26px;
+    background-color: white;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.cardOne:hover .listIcon {
+    background: var(--primary);
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.listIcon {
+    background: var(--textcolorOne);
+    padding: 15px;
+    border-radius: 50px;
+    color: var(--primary);
+    margin-bottom: 29px;
+}
+
+.listIcon:hover {
+    background: var(--primary);
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+}

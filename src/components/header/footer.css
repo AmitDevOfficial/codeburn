@@ -1,0 +1,104 @@
+.footerMain{
+    font-family: var(--font-primary);
+    background: var(--bglinear);
+    color: white;
+    padding: 44px 0px 44px 0px;
+}
+
+.footerlogoHead{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.footerChild{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerOneSection{
+    width: 25%;
+}
+
+.footerOneSection .footerHeadingOne{
+    padding-top: 50px;
+    padding-bottom: 19px;
+}
+
+.footerOneSection .footerHeadingTwo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerTwoSection h6{
+    padding-bottom: 29px;
+}
+
+.footerThreeSection h6{
+    padding-bottom: 29px;
+}
+
+.footerFourSection h6{
+    padding-bottom: 29px;
+}
+
+
+.footerOneSection img{
+    width: 127px;
+    height: 114px;
+}
+
+.footerTwoSection{
+    width: 10%;
+}
+
+.footerTwoSection ul li{
+    list-style: none;
+}
+
+.footerThreeSection{
+    width: 10%;
+}
+
+.footerThreeSection ul li{
+    list-style: none;
+}
+
+.footerFourSection{
+    width: 25%;
+}
+
+.footerChild h6{
+    margin-top: 0px !important;
+}
+
+/*--------FooterBottom---------*/
+.footerBottomMain{
+    font-family: var(--font-primary);
+    text-align: center;
+    padding: 13px;
+    background: var(--textcolorOne);
+}
+
+.myFooterIcon{
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.footerIcons{
+    column-gap: 20px;   
+}
+
+.footerOneSection p{
+    line-height: 29px;
+}
+.footerFourSection p{
+    line-height: 29px;
+}
+.footerTwoSection ul li{
+    line-height: 29px;
+}
+
+.footerThreeSection ul li{
+    line-height: 29px;
+}

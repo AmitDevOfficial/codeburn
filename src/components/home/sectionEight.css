@@ -1,0 +1,75 @@
+.sectionFiveChild {
+    font-family: var(--font-primary);
+}
+.eightMain h2{
+    padding-bottom: 11px;
+}
+.sectionEightMain {
+    text-align: start;
+    padding: 92px 0px 92px 0px;
+}
+.eghtPara{
+    padding-bottom: 52px;
+}
+
+.logoHeading {
+    display: flex;
+}
+
+.logoHeading img {
+    width: 60px;
+    height: 60px;
+}
+
+.logoHeading h6 {
+    margin-top: 6px;
+}
+
+.eightPara {
+    padding: 20px;
+}
+
+
+.aryaClgImageStyle {
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+}
+
+.sectionEightMain button {
+    border-radius: 4px;
+}
+
+
+.downloadBtnOne {
+    border-radius: 0px;
+    border: 2px solid #f0f0f0 !important;
+    color: black !important;
+}
+
+.downloadBtnOne:hover {
+    background: var(--secondary);
+    color: white !important;
+    border: 2px solid var(--secondary) !important;
+}
+
+.downloadBtnTwo {
+    border: 2px solid var(--secondary) !important;
+    background: var(--textcolorOne);
+    color: var(--secondary);
+}
+
+.downloadBtnTwo:hover {
+    background: var(--secondary);
+    color: var(--textcolorOne);
+}
+
+.eghtBtn {
+    display: flex;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.eightMain {
+    justify-items: center;
+}

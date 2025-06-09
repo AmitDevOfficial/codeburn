@@ -1,0 +1,47 @@
+.sectionSixMain {
+    font-family: var(--font-primary);
+}
+
+.alheading {
+    justify-items: anchor-center;
+}
+
+.sectionSixMain .alpara {
+    width: 1133px;
+    text-align: center;
+    margin: 21px 0px 36px 0px;
+}
+
+.alMain {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 71px;
+}
+
+.alcard {
+    display: flex;
+    background: var(--textcolorOne);
+    padding: 20px 27px;
+    column-gap: 25px;
+    width: 601px;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 10px 8px 20px -14px grey;
+    margin-top: 21px;
+}
+
+.alcard:hover {
+    display: flex;
+    background: var(--bglinear);
+    padding: 20px 27px;
+    column-gap: 25px;
+    width: 601px;
+    border-radius: 8px;
+    color: white;
+    /* transition: 0.3s ease-in-out; */
+}
+
+.alcard img {
+    width: 29%;
+}
+

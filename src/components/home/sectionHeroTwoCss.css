@@ -1,0 +1,48 @@
+.rightlogo{
+    background: var(--primary);
+    width: 251px;
+    column-gap: 20px;
+    display: flex;
+    padding: 28px 40px;
+    align-items: center;
+}
+
+
+.rightlogo span{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    color: var(--textcolorOne);
+    width: 100px;
+}
+
+.sectionHeroTwochild{
+    display: flex;
+}
+
+.leftlogo{
+    background: var(--bgOne);
+    padding: 28px 0px;
+    overflow-x: hidden !important;
+}
+
+.leftlogo .bgBrand span{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    color: black;
+    /* width: 100px; */
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.leftlogo img{
+    width: 40px;
+}
+
+.bgBrand{
+    background: white;
+    width: 188px !important;
+    display: flex !important;
+    padding: 17px 38px;
+    column-gap: 20px;
+    border-radius: 9px;
+}

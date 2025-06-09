@@ -1,0 +1,116 @@
+.sectionFiveMain{
+    justify-self: center;
+    text-align: center;
+    background-image: url("../images/paperline.png");
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.react-tabs__tab-list {
+    /* border-bottom: 0px solid #aaa !important; */
+    border: none;
+    margin: 0 0 10px;
+    padding: 0;
+    margin: 45px 0px 86px 0px;
+}
+
+.react-tabs__tab {
+    display: inline-block;
+    border: 1px solid var(--secondary);
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.react-tabs__tab:focus {
+    outline: auto;
+    border: 1px solid var(--secondary);
+}
+
+.react-tabs__tab--selected {
+    border-radius: 5px;
+    background: var(--secondary);
+    color: var(--textcolorOne);
+    border: 1px solid var(--secondary);
+}
+
+.sectionFiveChild ul{
+    /* padding-top: 80px; */
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.sectionFiveChild ul li{
+    list-style: none;
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+.aryaClgImageStyle{
+    display: flex;
+    column-gap: 25px;
+}
+
+.aryaClgImageStyle{
+    font-family: var(--font-primary);
+}
+.aryaClgImageStyle img{
+    width: 320px;
+    height: 163px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.aryaClgImageStyle button{
+    width: 320px;
+    padding: 10px;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 0px 0px 12px 12px;
+    border: none;
+}
+
+h6{
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 28px;
+}
+.mainClgCard{
+    width: 320px;
+    border: 1px solid #EAECF0;
+    border-radius: 20px;
+    background: var(--textcolorOne);
+}
+
+.mainClgCard:hover h6 {
+  color: var(--primary);
+}
+
+h6,
+.downloadBtn {
+  transition: all 0.3s ease;
+}
+
+.mainClgCard:hover .downloadBtn {
+  background: var(--primary);
+  color: white;
+}
+
+.downloadBtn {
+  display: flex;
+  align-items: center; /* vertically center */
+  justify-content: center; /* horizontally center */
+  gap: 8px; /* icon aur text ke beech thoda space */
+  padding: 10px 16px;
+  background-color: var(--bgHero);
+  color: #182F43;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

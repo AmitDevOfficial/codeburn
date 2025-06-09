@@ -1,0 +1,24 @@
+.mainImageChild img{
+    display: block;
+}
+
+.mainImageChild img{
+   /* margin: 0.5px; */
+   padding: 5px;
+}
+
+.mainImageMain{
+    display: flex;
+}
+
+.sectionFiveChild .react-tabs__tab-list {
+    /* border-bottom: 0px solid #aaa !important; */
+    border: none;
+    margin: 0 0 10px;
+    padding: 0;
+    margin: 45px 0px 45px 0px;
+}
+
+.sectionNine{
+    background: var(--bgHero);
+}

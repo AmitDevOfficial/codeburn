@@ -1,0 +1,77 @@
+.threeOne {
+    justify-items: center;
+    text-align: center;
+}
+
+.threeOne p {
+    font-family: var(--font-primary);
+    width: 1133px;
+}
+
+.threeTwo {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+.threeOne h2{
+    margin-top: 58px;
+}
+.threeOne p{
+    margin-top: 21px;
+    margin-bottom: 69px;
+}
+.myclgCard {
+    display: flex;
+    font-family: var(--font-primary);
+}
+
+.paraoneMain {
+    background: var(--secondary);
+    width: 10%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.paraOne {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    margin-top: 138px;
+}
+
+.paraTwo {
+    background: var(--bgHero);
+    padding: 0px 54px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.paraTwo p {
+    margin: 11px 0px;
+}
+
+.myclgOne {
+    row-gap: 50px;
+}
+
+.myclgCardsecond{
+    margin-top: 22px;
+}
+
+.myclgTwo{
+    position: relative;
+}
+
+
+.myclgTwoChild{
+    display: flex;
+    background: var(--textcolorOne);
+    width: 280px;
+    border: 1px solid var(--primary);   
+    border: dashed var(--primary);
+    padding: 20px;
+    border-radius: 9px;
+    font-family: var(--font-primary);
+    position: absolute;
+    transform: translateY(-141px) translateX(13px);
+}

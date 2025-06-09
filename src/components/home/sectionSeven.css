@@ -1,0 +1,22 @@
+.sectionSevenChild{
+    background: var(--bgOne);
+    text-align: center;
+    padding: 74px 0px 83px 0px;
+}
+
+.sectionSevenChild h2{
+    padding-bottom: 64px;
+}
+.sectionSevenChild img{
+    height: 100px;
+    width: 100px;
+}
+.sectionSevenChild .bgBrand{
+    width: 100px !important;
+    height: 117px;
+}
+
+.leftlogo {
+    width: 1330px !important;
+    justify-content: space-around;
+}
