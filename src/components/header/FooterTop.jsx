@@ -9,8 +9,8 @@ import FooterBottom from './FooterBottom';
 
 export default function FooterTop() {
     return (
-        <>
-            <footer id='footer' className='footerMain'>
+        <div id='footer'>
+            <footer id='footerOne' className='footerMain'>
                 <div className='container footerChild'>
 
                     <div className='footerOneSection'>
@@ -71,6 +71,6 @@ export default function FooterTop() {
                 </div>
             </footer>
             <FooterBottom />
-        </>
+        </div>
     )
 }

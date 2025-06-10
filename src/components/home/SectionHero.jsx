@@ -56,7 +56,7 @@ export default function SectionHero() {
       <SectionEight />
       <SectionNine />
       <SectionTen />
-      
+
     </>
   );
 }

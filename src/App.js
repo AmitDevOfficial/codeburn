@@ -14,7 +14,7 @@ import Placement from "./components/pages/Placements"
 import Resource from "./components/pages/Resources"
 import FooterTop from './components/header/FooterTop';
 import MobileHeader from './components/header/MobileHeader';
-
+import MobileFooter from './components/header/MobileFooter';
 
 export default function App() {
 
@@ -25,18 +25,19 @@ export default function App() {
         <SectionOne />
         <MobileHeader />
         <Routes>
-          <Route exact path="/" element={<SectionHero />}/>
-          <Route exact path="/about" element={<AboutArya />}/>
-          <Route exact path="/acadmic" element={<Academics />}/>
-          <Route exact path="/blog" element={<Blog />}/>
-          <Route exact path="/conatct-us" element={<ContactUs />}/>
-          <Route exact path="/event" element={<Events />}/>
-          <Route exact path="/gallery" element={<Gallery />}/>
-          <Route exact path="/infra" element={<Infra />}/>
-          <Route exact path="/placement" element={<Placement />}/>
-          <Route exact path="/resource" element={<Resource />}/>
+          <Route exact path="/" element={<SectionHero />} />
+          <Route exact path="/about" element={<AboutArya />} />
+          <Route exact path="/acadmic" element={<Academics />} />
+          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/conatct-us" element={<ContactUs />} />
+          <Route exact path="/event" element={<Events />} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          <Route exact path="/infra" element={<Infra />} />
+          <Route exact path="/placement" element={<Placement />} />
+          <Route exact path="/resource" element={<Resource />} />
         </Routes>
         <FooterTop />
+        <MobileFooter />
       </BrowserRouter>
 
     </div>

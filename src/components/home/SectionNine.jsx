@@ -69,25 +69,29 @@ export default function SectionNine() {
                         <TabPanel>
                             <div className='mainImage'>
                                 <div className='mainImageMain'>
-                                    <div className='mainImageChild'>
-                                        <img src={award1} alt="" />
-                                        <img src={award2} alt="" />
+                                    <div className='galleryOne'>
+                                        <div className='mainImageChild'>
+                                            <img src={award1} alt="" />
+                                            <img src={award2} alt="" />
+                                        </div>
+                                        <div className='mainImageChild'>
+                                            <img src={award3} alt="" />
+                                            <img src={award4} alt="" />
+                                        </div>
+                                        <div className='mainImageChild'>
+                                            <img src={award5} alt="" />
+                                            <img src={award6} alt="" />
+                                        </div>
                                     </div>
-                                    <div className='mainImageChild'>
-                                        <img src={award3} alt="" />
-                                        <img src={award4} alt="" />
-                                    </div>
-                                    <div className='mainImageChild'>
-                                        <img src={award5} alt="" />
-                                        <img src={award6} alt="" />
-                                    </div>
-                                    <div className='mainImageChild'>
-                                        <img src={award7} alt="" />
-                                        <img src={award8} alt="" />
-                                    </div>
-                                    <div className='mainImageChild'>
-                                        <img src={award9} alt="" />
-                                        <img src={award10} alt="" />
+                                    <div className='galleryOne galleryTwo'>
+                                        <div className='mainImageChild'>
+                                            <img src={award7} alt="" />
+                                            <img src={award8} alt="" />
+                                        </div>
+                                        <div className='mainImageChild'>
+                                            <img src={award9} alt="" />
+                                            <img src={award10} alt="" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

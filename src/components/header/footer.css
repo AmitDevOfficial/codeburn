@@ -102,3 +102,8 @@
 .footerThreeSection ul li{
     line-height: 29px;
 }
+.linkStyle{
+    display: flex;
+}
+
+/*----------Mbile Footer----------*/

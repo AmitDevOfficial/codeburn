@@ -22,3 +22,6 @@
 .sectionNine{
     background: var(--bgHero);
 }
+.galleryOne{
+    display: flex;
+}
